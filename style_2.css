@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f0f0;
+}
+.contener {
+  width: 70%;
+  height: 500px;
+  margin: 70px 0px 70px 200px;
+  background-color: rgb(173, 228, 224);
+  box-shadow: 5px 5px 15px #555;
+  display: inline-block;
+}
+.ellips {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(99, 177, 177);
+  border-radius: 20px;
+  display: inline-block;
+}
+.contener p {
+  font-family: sans-serif;
+  text-align: center;
+  color: #555;
+  padding: 70px 0 0 20px;
+  line-height: 24px;
+}
+#ellipies {
+  margin-left: 120px;
+  display: inline-block;
+}
+.box {
+  width: 60%;
+  margin: 30px auto;
+  height: 275px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.boxleft {
+  width: 50%;
+  float: left;
+}
+.boxleft label {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.boxleft input {
+  margin-left: 20px;
+}
+.boxleft form input {
+  padding: 8px;
+  margin-top: 5px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  background-color: #d0d0d0;
+}
+input::placeholder {
+  color: rgb(17, 63, 50);
+}
+.boxleft form button {
+  width: 75px;
+  padding: 8px 5px;
+  margin: 4px 3px;
+  border: none;
+  background-color: rgb(17, 63, 50);
+  color: #fff;
+  border-radius: 5px;
+}
+form button:nth-child(7) {
+  margin-left: 20px;
+}
+form button:nth-child(11) {
+  margin-left: 20px;
+}
+.boxleft button:hover {
+  cursor: pointer;
+  background-color: rgb(2, 139, 101);
+}
+form button:nth-child(9) {
+  background-color: rgb(2, 139, 101);
+}
+form button:nth-child(9):hover {
+  background-color: rgb(17, 63, 50);
+}
+form button:nth-child(13) {
+  background-color: #d0d0d0;
+  color: #000;
+}
+form button:nth-child(13):hover {
+  background-color: #555;
+  color: #fff;
+}
+.boxright {
+  width: 45%;
+  height: 240px;
+  float: left;
+  background-color: rgb(17, 63, 50);
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+.boxright p {
+  line-height: 16px;
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+  color: #fff;
+  font-family: sans-serif;
+}
+.boxright h1 {
+  display: inline-block;
+  color: rgb(2, 139, 101);
+  font-family: sans-serif;
+  margin-left: 40px;
+}
+.boxright h1:nth-child(5) {
+  margin-left: 60px;
+}
+.paragrf {
+  margin: 30px 20px;
+  font-size: 13.2px;
+}
+.boxright button {
+  width: 85%;
+  margin: 35px 20px;
+  padding: 8px;
+  background-color: rgb(2, 139, 101);
+  color: #000;
+  border-radius: 5px;
+  border: none;
+}
+.boxright button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}

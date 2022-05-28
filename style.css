@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  max-width: 95%;
+  margin: 20px auto;
+  height: 600px;
+  background-color: blue;
+}
+#contener {
+  max-width: 55%;
+  margin: 50px auto;
+}
+.patrol {
+  max-width: 40%;
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(rgb(1, 1, 78), rgb(4, 4, 182));
+  margin-top: 85px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0px 5px 10px #333;
+  float: left;
+}
+
+.patrol h1 {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  border: 1px solid #fff;
+  padding: 20px 5px;
+  margin: 60px;
+  margin-top: 150px;
+  border-radius: 5px;
+}
+.myform,
+.myform1 {
+  max-width: 60%;
+  background-color: white;
+  padding: 76.5px;
+  margin-top: 85px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 5px 5px 10px #333;
+  float: right;
+}
+.myform input,
+.myform1 input {
+  margin: 10px 0;
+  padding: 5px 100px 5px 0;
+  border: none;
+  border-bottom: 1px solid #555;
+}
+.myform button,
+.myform1 button {
+  background: linear-gradient(blue, rgb(2, 2, 146));
+  color: #fff;
+  padding: 15px 30px;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.myform p,
+.myform1 p {
+  margin-top: 10px;
+  text-align: center;
+}
+.myform1 {
+  border-radius: 15px;
+  margin-right: 400px;
+}
+.myform1 h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 40px auto;
+  margin-top: -40px;
+  border-radius: 15px;
+}
+.myform1 button {
+  width: 100%;
+  margin-left: 0;
+}
